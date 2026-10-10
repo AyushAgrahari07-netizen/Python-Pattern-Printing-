@@ -1,5 +1,15 @@
+Expected output:
+
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+
+Python solution:
+
 n = 5
 for i in range(n):
-    for j in range (n):
-         print("*", end=" ")
-    print()
+ for j in range(n):
+   print("*", end=" ")
+ print()

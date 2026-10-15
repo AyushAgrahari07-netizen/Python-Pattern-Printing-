@@ -1,3 +1,15 @@
+Expected output :
+
+for an example n = 5 :- 
+
+       *
+      * *
+     * * * 
+    * * * * 
+   * * * * * 
+
+Python solution :
+
 n = int(input("enter number of rows or coloum :")
 
 for i in range (n)：

@@ -1,0 +1,17 @@
+expected output :
+
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 4 5
+
+Python solution : 
+
+n=5
+for i in range(n+1):
+  t = 1
+  for j in range(i)：
+     print(j, end = " ")
+     t += 1
+  print()
